@@ -28,3 +28,13 @@ In the current code, users can add the same fitness goal multiple times, leading
 4. If no duplicate is found, we proceed to create and add the new goal as before.
 
 Check out the practice challenges on Scrimba here: https://scrimba.com/playlist/pwVxGLDUW
+
+**Functionalities added**
+1. When you click add workout without filling in any text it will present a window alert **Please enter a valid workout** 
+2. When you add a workout it will present a remove button in a case you no longer want that workout.
+3. After adding a workout if the user clicks on add goal without filling in any characters it will present a window alert **Please enter valid goal**
+4. When you add a goal it will present a remove button in a case you no longer want that workout.
+5. Users are unable to click on -1 glass if the value of glasses is zero.
+6. When the user adds meal plan and clicks on submit meal plan it will show change to calorie intake and show completed workout.
+7. If the user clicks on submit meal plan button without filling in the meal plan it will prompt the user to fill in the required fields.
+
