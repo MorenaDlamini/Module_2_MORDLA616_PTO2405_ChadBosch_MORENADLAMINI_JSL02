@@ -134,8 +134,8 @@ document.querySelector('#themeToggle').addEventListener('click', toggleTheme);
 const submitMealPlan = (event) => {
     event.preventDefault();
     // Here, you would collect actual calorie data from the form inputs
-    // For now, assume a placeholder value for calorie intake
-    let calorieIntake = 1500; // Replace this with real data from the form
+    // Assumed calorie intake
+    let calorieIntake = 1500; 
     totalCalories += calorieIntake; // Accumulate the total calorie intake
 
     alert('Meal plan submitted successfully! 🍴');
