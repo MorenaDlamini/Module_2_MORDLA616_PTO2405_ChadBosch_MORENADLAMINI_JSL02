@@ -14,6 +14,18 @@ const displayWorkoutRoutine = () => {
     const workoutList = document.querySelector('#workoutList');
 
     if (workoutInput !== '') { // Check if the input is not empty
+        // Check for duplicate workouts
+        const existingWorkouts = Array.from(workoutList.getElementsByTagName('li'));
+        const isDuplicate = existingWorkouts.some(workout => workout.textContent.includes(workoutInput));
+
+        if (isDuplicate) {
+            // Prompt the user if they want to add a duplicate workout
+            const addDuplicate = confirm('This workout is already on the list! Do you want to add it again?');
+            if (!addDuplicate) {
+                return; // Exit if the user does not want to add a duplicate
+            }
+        }
+
         const newWorkout = document.createElement('li');
         newWorkout.textContent = workoutInput;
 
