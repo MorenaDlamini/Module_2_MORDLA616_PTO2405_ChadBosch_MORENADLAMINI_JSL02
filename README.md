@@ -37,4 +37,5 @@ Check out the practice challenges on Scrimba here: https://scrimba.com/playlist/
 5. Users are unable to click on -1 glass if the value of glasses is zero.
 6. When the user adds meal plan and clicks on submit meal plan it will show change to calorie intake and show completed workout.
 7. If the user clicks on submit meal plan button without filling in the meal plan it will prompt the user to fill in the required fields.
+8. Prompt user if they want to add the same workout again. 
 
